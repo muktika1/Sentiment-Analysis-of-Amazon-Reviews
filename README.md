@@ -7,6 +7,8 @@ This project performs sentiment analysis on Amazon reviews using three deep lear
 ### Step 1: Data Upload and Library Import
 We start by uploading the dataset, which originally consists of half a million records. For the analysis, we will use a subset of 10,000 rows. Next, we import the necessary libraries, including NLTK, Transformers, and Pandas.
 
+You can download the full dataset from Kaggle - https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews
+
 ### Step 2: Simple Preprocessing
 In this step, we check for null values and duplicates in the dataset. We then add a new column called 'Sentiment', which categorizes the sentiment of users based on their ratings. The ratings range from 1 to 5, where 1 indicates the least satisfaction and 5 indicates the most. We define three sentiment labels:
 - **Positive**: 4-5 star reviews
